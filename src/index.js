@@ -25,6 +25,6 @@ function addImage(dogImgUrl) {
 
 
 function loadBreeds() {
-  const breedUrl =  ""
+  
 }
 
