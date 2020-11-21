@@ -29,7 +29,7 @@ function loadBreeds() {
   fetch(breedUrl)
     .then(resp => resp.json())
     .then(result => {
-      breeds
+      breeds = Object.keys
     })
 }
 
