@@ -30,7 +30,8 @@ function loadBreeds() {
     .then(resp => resp.json())
     .then(result => {
       breeds = Object.keys(result.message)
-      updateBreeds(breeds)
+      updateBreeds(breeds);
+      addBreedSelectListener
     })
 }
 
