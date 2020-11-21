@@ -31,7 +31,7 @@ function loadBreeds() {
     .then(result => {
       breeds = Object.keys(result.message)
       updateBreeds(breeds);
-      addBreedSelectListener
+      addBreedSelectListener();
     })
 }
 
