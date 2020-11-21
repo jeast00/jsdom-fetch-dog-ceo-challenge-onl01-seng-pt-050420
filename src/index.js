@@ -24,5 +24,7 @@ function addImage(dogImgUrl) {
 }
 
 
-function loadBreeds()
+function loadBreeds() {
+  
+}
 
