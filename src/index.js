@@ -32,6 +32,6 @@ function loadBreeds() {
       breeds = Object.keys(result.message)
       updateBreeds(breeds);
       addBreedSelectListener();
-    })
+    });
 }
 
